@@ -1,0 +1,112 @@
+# --- Byte-compiled / Optimized Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Virtual Environments ---
+# Exclude virtual environments (venv, venv3, env, .venv, etc.)
+venv/
+env/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+# Conda environments
+conda-env.yml
+*.conda
+
+# --- Distribution / Packaging ---
+build/
+dist/
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Testing & Coverage ---
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# --- IDE & Editor Files ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# --- NLTK & NLP Specifics ---
+# NLTK Data directory (often large, can be re-downloaded via nltk.download())
+nltk_data/
+corpora/
+tokenizers/
+taggers/
+chunkers/
+parsers/
+misc/
+
+# Large Datasets (CSV, JSON, TXT, etc.)
+# Track small samples, ignore full datasets
+data/
+datasets/
+*.csv
+*.json
+*.xml
+#*.txt
+!data/.gitkeep
+!datasets/.gitkeep
+
+# Trained Models & Pickled Objects
+# These can be large and are often binary/regenerated
+models/
+*.pkl
+*.pickle
+*.joblib
+*.bin
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# Logs and Temporary Files
+logs/
+*.log
+tmp/
+temp/
+.cache/
+
+# --- Secrets & Environment Variables ---
+# NEVER commit API keys, passwords, or tokens
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+config_private.py
+
+# --- OS Specific ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db   
